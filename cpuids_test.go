@@ -52,12 +52,41 @@ func TestResolveVendorIsolation(t *testing.T) {
 }
 
 func TestAliasesAreCopied(t *testing.T) {
-	m, _ := Resolve(X86Key{Vendor: "GenuineIntel", Family: 6, Model: 85})
-	if len(m.Aliases) == 0 {
-		t.Fatal("expected aliases on Skylake-SP row")
+	// Find any embedded row that carries aliases; the specific row does not
+	// matter, only that Resolve hands back a private copy.
+	f, err := dataset.Parse(rawData)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var key Key
+	for _, r := range f.Models {
+		if len(r.Aliases) == 0 {
+			continue
+		}
+		switch r.Arch {
+		case dataset.ArchX86:
+			if r.Family != nil && r.Model != nil {
+				key = X86Key{Vendor: r.Vendor, Family: *r.Family, Model: *r.Model}
+			}
+		case dataset.ArchARM:
+			if r.ImplementerID != nil && r.PartID != nil {
+				key = ARMKey{ImplementerID: uint8(*r.ImplementerID), PartID: uint16(*r.PartID)}
+			}
+		}
+		if key != nil {
+			break
+		}
+	}
+	if key == nil {
+		t.Skip("embedded dataset has no row with aliases")
+	}
+
+	m, ok := Resolve(key)
+	if !ok || len(m.Aliases) == 0 {
+		t.Fatalf("expected an aliased resolution for %+v", key)
 	}
 	m.Aliases[0] = "mutated"
-	m2, _ := Resolve(X86Key{Vendor: "GenuineIntel", Family: 6, Model: 85})
+	m2, _ := Resolve(key)
 	if m2.Aliases[0] == "mutated" {
 		t.Error("Resolve returned a shared aliases slice; callers can corrupt the dataset")
 	}
