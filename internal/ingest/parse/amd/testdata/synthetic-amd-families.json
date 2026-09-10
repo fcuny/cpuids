@@ -1,0 +1,7 @@
+{
+  "_comment": "SYNTHETIC fixture — invented family/model/name values, not real AMD data.",
+  "entries": [
+    { "family": 30, "model": 1,  "name": "Fictionium",  "microarch": "MythZen",   "segment": "server", "release_year": 2099, "aliases": ["EPYC 90000"] },
+    { "family": 30, "model": 16, "name": "Placeholdox", "microarch": "MythZen 2", "segment": "client", "release_year": 2100 }
+  ]
+}

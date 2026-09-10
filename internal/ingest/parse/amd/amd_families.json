@@ -1,0 +1,12 @@
+{
+  "_comment": "Curated AMD family/model -> product table, re-derived from AMD Processor Programming Reference (PPR) documents. Not copied from any GPL-licensed tool. Add an entry only when confirmed from a PPR or equally primary AMD document. Keys: family/model are decimal CPUID values (family = base + extended).",
+  "entries": [
+    { "family": 23, "model": 1,   "name": "Naples",  "microarch": "Zen",    "segment": "server", "release_year": 2017, "aliases": ["EPYC 7001"] },
+    { "family": 23, "model": 49,  "name": "Rome",    "microarch": "Zen 2",  "segment": "server", "release_year": 2019, "aliases": ["EPYC 7002"] },
+    { "family": 23, "model": 113, "name": "Matisse", "microarch": "Zen 2",  "segment": "client", "release_year": 2019, "aliases": ["Ryzen 3000"] },
+    { "family": 25, "model": 1,   "name": "Milan",   "microarch": "Zen 3",  "segment": "server", "release_year": 2021, "aliases": ["EPYC 7003"] },
+    { "family": 25, "model": 17,  "name": "Genoa",   "microarch": "Zen 4",  "segment": "server", "release_year": 2022, "aliases": ["EPYC 9004"] },
+    { "family": 25, "model": 33,  "name": "Vermeer", "microarch": "Zen 3",  "segment": "client", "release_year": 2020, "aliases": ["Ryzen 5000"] },
+    { "family": 25, "model": 97,  "name": "Bergamo", "microarch": "Zen 4c", "segment": "server", "release_year": 2023, "aliases": ["EPYC 9704"] }
+  ]
+}

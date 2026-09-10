@@ -1,0 +1,745 @@
+{
+  "manifest": {
+    "schema_version": 1,
+    "generated_at": "2026-09-09T00:00:00Z",
+    "sources": [
+      {
+        "repo": "torvalds/linux",
+        "commit": "seed"
+      },
+      {
+        "repo": "util-linux/util-linux",
+        "commit": "seed"
+      },
+      {
+        "repo": "",
+        "commit": "seed"
+      }
+    ]
+  },
+  "models": [
+    {
+      "id": "amd-23-1",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 23,
+      "model": 1,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Naples",
+      "microarch_codename": "Zen",
+      "segment": "server",
+      "generation_rank": 10,
+      "release_year": 2017,
+      "aliases": [
+        "EPYC 7001"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-23-113",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 23,
+      "model": 113,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Matisse",
+      "microarch_codename": "Zen 2",
+      "segment": "client",
+      "generation_rank": 30,
+      "release_year": 2019,
+      "aliases": [
+        "Ryzen 3000"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-23-49",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 23,
+      "model": 49,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Rome",
+      "microarch_codename": "Zen 2",
+      "segment": "server",
+      "generation_rank": 20,
+      "release_year": 2019,
+      "aliases": [
+        "EPYC 7002"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-25-1",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 25,
+      "model": 1,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Milan",
+      "microarch_codename": "Zen 3",
+      "segment": "server",
+      "generation_rank": 50,
+      "release_year": 2021,
+      "aliases": [
+        "EPYC 7003"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-25-17",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 25,
+      "model": 17,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Genoa",
+      "microarch_codename": "Zen 4",
+      "segment": "server",
+      "generation_rank": 60,
+      "release_year": 2022,
+      "aliases": [
+        "EPYC 9004"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-25-33",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 25,
+      "model": 33,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Vermeer",
+      "microarch_codename": "Zen 3",
+      "segment": "client",
+      "generation_rank": 40,
+      "release_year": 2020,
+      "aliases": [
+        "Ryzen 5000"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "amd-25-97",
+      "vendor": "AuthenticAMD",
+      "arch": "x86_64",
+      "family": 25,
+      "model": 97,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Bergamo",
+      "microarch_codename": "Zen 4c",
+      "segment": "server",
+      "generation_rank": 70,
+      "release_year": 2023,
+      "aliases": [
+        "EPYC 9704"
+      ],
+      "notes": "Family/model re-derived from AMD PPR documentation.",
+      "provenance": {
+        "source_repo": "",
+        "source_path": "internal/ingest/parse/amd/amd_families.json",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd03",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3331,
+      "name": "Cortex-A53",
+      "microarch_codename": "Apollo",
+      "segment": "client",
+      "generation_rank": 10,
+      "release_year": 2012,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd07",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3335,
+      "name": "Cortex-A57",
+      "microarch_codename": "Atlas",
+      "segment": "client",
+      "generation_rank": 20,
+      "release_year": 2012,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd08",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3336,
+      "name": "Cortex-A72",
+      "microarch_codename": "Maia",
+      "segment": "client",
+      "generation_rank": 30,
+      "release_year": 2015,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd0c",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3340,
+      "name": "Neoverse-N1",
+      "microarch_codename": "Ares",
+      "segment": "server",
+      "generation_rank": 40,
+      "release_year": 2019,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd40",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3392,
+      "name": "Neoverse-V1",
+      "microarch_codename": "Zeus",
+      "segment": "server",
+      "generation_rank": 50,
+      "release_year": 2021,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd49",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3401,
+      "name": "Neoverse-N2",
+      "microarch_codename": "Perseus",
+      "segment": "server",
+      "generation_rank": 60,
+      "release_year": 2022,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x41-0xd4f",
+      "vendor": "ARM Ltd",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 65,
+      "part_id": 3407,
+      "name": "Neoverse-V2",
+      "microarch_codename": "Demeter",
+      "segment": "server",
+      "generation_rank": 70,
+      "release_year": 2023,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x4e-0x004",
+      "vendor": "NVIDIA",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 78,
+      "part_id": 4,
+      "name": "Carmel",
+      "microarch_codename": "Carmel",
+      "segment": "embedded",
+      "generation_rank": 10,
+      "release_year": 2018,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x61-0x022",
+      "vendor": "Apple",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 97,
+      "part_id": 34,
+      "name": "M1 (Icestorm)",
+      "microarch_codename": "Icestorm",
+      "segment": "client",
+      "generation_rank": 10,
+      "release_year": 2020,
+      "aliases": [
+        "M1 efficiency core"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0x61-0x023",
+      "vendor": "Apple",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 97,
+      "part_id": 35,
+      "name": "M1 (Firestorm)",
+      "microarch_codename": "Firestorm",
+      "segment": "client",
+      "generation_rank": 20,
+      "release_year": 2020,
+      "aliases": [
+        "M1 performance core"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "arm-0xc0-0xac3",
+      "vendor": "Ampere",
+      "arch": "aarch64",
+      "family": null,
+      "model": null,
+      "implementer_id": 192,
+      "part_id": 2755,
+      "name": "Ampere-1",
+      "microarch_codename": "Ampere-1",
+      "segment": "server",
+      "generation_rank": 10,
+      "release_year": 2022,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "util-linux/util-linux",
+        "source_path": "sys-utils/lscpu-arm.c",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-106",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 106,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Ice Lake-SP",
+      "microarch_codename": "Ice Lake",
+      "segment": "server",
+      "generation_rank": 40,
+      "release_year": 2021,
+      "aliases": [
+        "3rd Gen Intel Xeon Scalable"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-108",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 108,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Ice Lake-D",
+      "microarch_codename": "Ice Lake",
+      "segment": "server",
+      "generation_rank": 50,
+      "release_year": 2021,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-143",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 143,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Sapphire Rapids-SP",
+      "microarch_codename": "Sapphire Rapids",
+      "segment": "server",
+      "generation_rank": 90,
+      "release_year": 2023,
+      "aliases": [
+        "4th Gen Intel Xeon Scalable"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-151",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 151,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Alder Lake-S",
+      "microarch_codename": "Alder Lake",
+      "segment": "client",
+      "generation_rank": 60,
+      "release_year": 2021,
+      "aliases": [
+        "12th Gen Intel Core"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-154",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 154,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Alder Lake-L",
+      "microarch_codename": "Alder Lake",
+      "segment": "client",
+      "generation_rank": 70,
+      "release_year": 2021,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-173",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 173,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Granite Rapids-SP",
+      "microarch_codename": "Granite Rapids",
+      "segment": "server",
+      "generation_rank": 120,
+      "release_year": 2024,
+      "aliases": [
+        "Xeon 6"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-183",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 183,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Raptor Lake-S",
+      "microarch_codename": "Raptor Lake",
+      "segment": "client",
+      "generation_rank": 80,
+      "release_year": 2022,
+      "aliases": [
+        "13th Gen Intel Core"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-186",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 186,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Raptor Lake-P",
+      "microarch_codename": "Raptor Lake",
+      "segment": "client",
+      "generation_rank": 100,
+      "release_year": 2023,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-207",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 207,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Emerald Rapids-SP",
+      "microarch_codename": "Emerald Rapids",
+      "segment": "server",
+      "generation_rank": 110,
+      "release_year": 2023,
+      "aliases": [
+        "5th Gen Intel Xeon Scalable"
+      ],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-63",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 63,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Haswell-EP",
+      "microarch_codename": "Haswell",
+      "segment": "server",
+      "generation_rank": 10,
+      "release_year": 2014,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-79",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 79,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Broadwell-EP",
+      "microarch_codename": "Broadwell",
+      "segment": "server",
+      "generation_rank": 20,
+      "release_year": 2015,
+      "aliases": [],
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-6-85",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 6,
+      "model": 85,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Skylake-SP",
+      "microarch_codename": "Skylake",
+      "segment": "server",
+      "generation_rank": 30,
+      "release_year": 2017,
+      "aliases": [
+        "Cascade Lake-SP",
+        "Cooper Lake-SP"
+      ],
+      "notes": "Model 0x55 covers Skylake-SP, Cascade Lake-SP and Cooper Lake-SP; steppings distinguish them and stepping is out of scope for v1.",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "seed",
+        "ingested_at": "2026-09-09T00:00:00Z",
+        "confidence": "inferred"
+      }
+    }
+  ]
+}

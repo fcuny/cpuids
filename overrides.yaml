@@ -1,0 +1,37 @@
+# Hand-maintained corrections merged on top of parsed data, keyed by row id
+# (the stable slug, e.g. "intel-6-143", "arm-0x41-0xd4f").
+#
+# This is the mechanism for fixing anything a parser gets wrong without
+# fighting the automation on every re-ingestion. Every key is optional; only
+# the fields you list are applied. Recognised fields:
+#
+#   name                display name
+#   microarch_codename  e.g. "Sapphire Rapids"
+#   segment             server | client | embedded | unknown
+#   generation_rank     integer; pins ordering for this row. Note: pinning one
+#                       row in a vendor/arch group may require pinning its
+#                       neighbours so ranks stay strictly increasing.
+#   release_year        best-effort, informational
+#   aliases             list of alternate names (replaces the parsed list)
+#   notes               freeform
+#
+# The entries below are illustrative. The Intel parser can only humanize a
+# macro token crudely ("SAPPHIRERAPIDS_X" -> "Sapphirerapids"), so real display
+# names for Intel rows come from here.
+
+overrides:
+  intel-6-143:
+    name: "Sapphire Rapids-SP"
+    microarch_codename: "Sapphire Rapids"
+    segment: server
+    release_year: 2023
+    aliases:
+      - "4th Gen Intel Xeon Scalable"
+
+  intel-6-207:
+    name: "Emerald Rapids-SP"
+    microarch_codename: "Emerald Rapids"
+    segment: server
+    release_year: 2023
+    aliases:
+      - "5th Gen Intel Xeon Scalable"

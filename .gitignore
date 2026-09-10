@@ -1,0 +1,6 @@
+# Build outputs (SQLite + SQL are release assets, regenerated from data/cpu_models.json)
+/build/
+
+# Fetched upstream files are never committed — not even as fixtures.
+/build/snapshots/
+*.snapshot

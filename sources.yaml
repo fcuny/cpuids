@@ -1,0 +1,40 @@
+# Pinned upstream sources for the ingestion pipeline.
+#
+# Each entry names a parser (intel | arm | amd), the repo and path to fetch by
+# raw content (no clone), and the ref to pin to. last_seen_commit is updated by
+# the pipeline after a successful run; a run whose freshly resolved SHA matches
+# last_seen_commit for every source has nothing to do.
+#
+# A source with an empty `repo` is curated in-repo: its `path` is read from this
+# repository and its change signal is this repo's own git history.
+
+sources:
+  - id: intel
+    parser: intel
+    repo: torvalds/linux
+    ref: master
+    path: arch/x86/include/asm/intel-family.h
+    last_seen_commit: ""
+    # License of the upstream file: GPL-2.0. Only the (model number, codename)
+    # facts are extracted; upstream comments and prose are discarded.
+
+  - id: arm
+    parser: arm
+    repo: util-linux/util-linux
+    ref: master
+    path: sys-utils/lscpu-arm.c
+    last_seen_commit: ""
+    cross_check: https://github.com/arm-software/data
+    # License of the upstream file: GPLv2+ (verify per-file/version; lscpu was
+    # briefly tagged GPLv3+ before reverting). Only the (implementer, part) ->
+    # name facts are extracted.
+
+  - id: amd
+    parser: amd
+    repo: ""
+    ref: ""
+    path: internal/ingest/parse/amd/amd_families.json
+    last_seen_commit: ""
+    # No clean upstream table exists for AMD. This curated file is re-derived
+    # from AMD Processor Programming Reference (PPR) documents; nothing is
+    # copied from the GPL-licensed `cpuid` tool.
