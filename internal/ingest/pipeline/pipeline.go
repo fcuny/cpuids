@@ -142,6 +142,12 @@ func Run(ctx context.Context, opt Options) (Result, error) {
 		}
 		res.Counts[f.Source.ID] = len(recs)
 
+		// Absolute floor: a source producing nothing is always parser
+		// breakage — none of the configured sources is legitimately empty.
+		if len(recs) == 0 {
+			return res, fmt.Errorf("canary: source %q parsed 0 records; treating as parser breakage", f.Source.ID)
+		}
+
 		// Canary: a sharp drop vs last successful run means the parser broke.
 		if prev, ok := state.LastCounts[f.Source.ID]; ok && prev > 0 {
 			if float64(len(recs)) < float64(prev)*opt.CanaryFloor {

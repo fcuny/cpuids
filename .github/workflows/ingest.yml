@@ -40,10 +40,12 @@ jobs:
           git config user.name  "cpuids-ingest[bot]"
           git config user.email "cpuids-ingest@users.noreply.github.com"
           git checkout -b "$branch"
-          git add data/cpu_models.json sources.yaml .ingest/state.json
+          git add data/cpu_models.json .ingest/state.json sources.yaml
           git commit -m "data: refresh from upstream sources"
           git push origin "$branch"
+          # Ensure the label exists (no-op if it already does).
+          gh label create ingest --color 0e8a16 --description "Automated upstream data refresh" 2>/dev/null || true
           gh pr create \
             --title "data: refresh from upstream sources" \
-            --body "Automated ingestion run. Review the diff before merging: a sharp change may be a parser regression rather than real upstream movement. The count-drop canary has already passed." \
+            --body "Automated ingestion run. Review the diff before merging: a sharp change may be a parser regression rather than real upstream movement. The absolute (zero-record) and count-drop canaries have already passed." \
             --label ingest

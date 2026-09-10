@@ -1,20 +1,25 @@
 // Package intel parses the Linux kernel header
 // arch/x86/include/asm/intel-family.h.
 //
-// The header is a flat list of family-6 model numbers:
+// The header lists x86 model numbers, one per #define, in two forms:
 //
-//	#define INTEL_FAM6_SAPPHIRERAPIDS_X	0x8F
+//	#define INTEL_SAPPHIRERAPIDS_X		IFM(6, 0x8F)   // current
+//	#define INTEL_FAM6_SKYLAKE_X		0x55           // legacy
 //
-// The parser extracts only the (model number, macro token) fact pairs. The
-// macro token is the vendor's own short codename; humanization into a display
-// name happens in the normalizer. Comments and any prose are discarded.
+// IFM(fam, model) is the kernel's family/model constructor. Either form may
+// carry a trailing segment suffix on the token; the legacy form always implies
+// family 6.
 //
-// A trailing segment suffix on the token is a well-known kernel convention and
-// is mapped to a segment hint:
+// The parser extracts only the (family, model, macro token) fact pairs. The
+// macro token is the vendor's own short codename; turning it into a display
+// name happens in the normalizer. Comments and prose are discarded.
 //
-//	_X, _D            -> server
-//	_L, _H, _N, _S    -> client
-//	(none)            -> unknown
+// Segment suffix heuristic:
+//
+//	_X, _D                          -> server
+//	_L, _H, _N, _S, _P, _M, _G,
+//	_U, _Y                          -> client
+//	(none / unknown suffix)         -> unknown
 package intel
 
 import (
@@ -31,52 +36,71 @@ import (
 // VendorString is the raw CPUID vendor string stored on every Intel row.
 const VendorString = "GenuineIntel"
 
-var defineRE = regexp.MustCompile(`^\s*#define\s+INTEL_FAM6_([A-Z0-9_]+)\s+(0[xX][0-9A-Fa-f]+|\d+)\b`)
+var (
+	// #define INTEL_<TOKEN>  IFM(<fam>, <model>)   — <fam> may be non-numeric
+	// (X86_FAMILY_ANY), in which case the entry is skipped.
+	ifmRE = regexp.MustCompile(`^\s*#define\s+INTEL_(?:FAM6_)?([A-Z0-9_]+)\s+IFM\(\s*([0-9A-Za-zx_]+)\s*,\s*(0[xX][0-9A-Fa-f]+|\d+)\s*\)`)
 
-// Parse reads intel-family.h content and returns one Record per #define. prov
-// is copied onto every Record (the caller sets source_repo/path/commit and
-// ingested_at); Confidence is forced to "inferred" because the display name is
-// derived from the macro token rather than taken verbatim.
+	// #define INTEL_FAM6_<TOKEN>  0x<hex>|<dec>   — family 6 implied.
+	legacyRE = regexp.MustCompile(`^\s*#define\s+INTEL_FAM6_([A-Z0-9_]+)\s+(0[xX][0-9A-Fa-f]+|\d+)\b`)
+)
+
+// Parse reads intel-family.h content and returns one Record per model #define.
+// prov is copied onto every Record; Confidence is "inferred" because the
+// display name is derived from the macro token rather than taken verbatim.
 func Parse(content []byte, prov dataset.Provenance) ([]ingest.Record, error) {
 	prov.Confidence = dataset.ConfidenceInferred
 
 	var out []ingest.Record
-	seen := make(map[int]bool)
+	type fm struct{ fam, model int }
+	seen := make(map[fm]bool)
 
-	sc := bufio.NewScanner(bytes.NewReader(content))
-	sc.Buffer(make([]byte, 0, 64*1024), 1024*1024)
-	for sc.Scan() {
-		m := defineRE.FindSubmatch(sc.Bytes())
-		if m == nil {
-			continue
+	add := func(token string, fam, model int) {
+		if fam <= 0 || fam > 0xFF || model < 0 || model > 0xFF {
+			return
 		}
-		token := string(m[1])
-		model, err := parseInt(string(m[2]))
-		if err != nil {
-			continue
+		if seen[fm{fam, model}] {
+			return // first definition wins; later ones are usually aliases
 		}
-		// Kernel defines a few non-model helper macros (e.g. ANY); those do
-		// not have a plausible model byte. Guard on range.
-		if model < 0 || model > 0xFF {
-			continue
-		}
-		if seen[model] {
-			continue // first definition wins; later ones are usually aliases
-		}
-		seen[model] = true
-
-		fam := 6
-		mod := model
+		seen[fm{fam, model}] = true
+		f, m := fam, model
 		out = append(out, ingest.Record{
 			Arch:       dataset.ArchX86,
 			Vendor:     VendorString,
-			Family:     &fam,
-			Model:      &mod,
+			Family:     &f,
+			Model:      &m,
 			Name:       token, // raw fact; normalizer humanizes
 			Segment:    segmentFromToken(token),
 			Confidence: dataset.ConfidenceInferred,
 			Provenance: prov,
 		})
+	}
+
+	sc := bufio.NewScanner(bytes.NewReader(content))
+	sc.Buffer(make([]byte, 0, 64*1024), 1024*1024)
+	for sc.Scan() {
+		line := sc.Bytes()
+
+		if m := ifmRE.FindSubmatch(line); m != nil {
+			fam, err := parseInt(string(m[2]))
+			if err != nil {
+				continue // non-numeric family (X86_FAMILY_ANY): skip
+			}
+			model, err := parseInt(string(m[3]))
+			if err != nil {
+				continue
+			}
+			add(string(m[1]), fam, model)
+			continue
+		}
+
+		if m := legacyRE.FindSubmatch(line); m != nil {
+			model, err := parseInt(string(m[2]))
+			if err != nil {
+				continue
+			}
+			add(string(m[1]), 6, model)
+		}
 	}
 	if err := sc.Err(); err != nil {
 		return nil, err
@@ -84,16 +108,23 @@ func Parse(content []byte, prov dataset.Provenance) ([]ingest.Record, error) {
 	return out, nil
 }
 
+var (
+	serverSuffixes = []string{"_X", "_D"}
+	clientSuffixes = []string{"_L", "_H", "_N", "_S", "_P", "_M", "_G", "_U", "_Y"}
+)
+
 func segmentFromToken(token string) string {
-	switch {
-	case strings.HasSuffix(token, "_X"), strings.HasSuffix(token, "_D"):
-		return dataset.SegmentServer
-	case strings.HasSuffix(token, "_L"), strings.HasSuffix(token, "_H"),
-		strings.HasSuffix(token, "_N"), strings.HasSuffix(token, "_S"):
-		return dataset.SegmentClient
-	default:
-		return dataset.SegmentUnknown
+	for _, s := range serverSuffixes {
+		if strings.HasSuffix(token, s) {
+			return dataset.SegmentServer
+		}
 	}
+	for _, s := range clientSuffixes {
+		if strings.HasSuffix(token, s) {
+			return dataset.SegmentClient
+		}
+	}
+	return dataset.SegmentUnknown
 }
 
 func parseInt(s string) (int, error) {
