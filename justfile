@@ -40,3 +40,9 @@ ci: fmt-check vet test build
 # Remove build outputs
 clean:
     rm -rf build/
+
+# Serve the lookup website locally, with a fresh copy of the dataset
+site:
+    mkdir -p site/data
+    cp data/cpu_models.json site/data/cpu_models.json
+    cd site && python3 -m http.server 8000

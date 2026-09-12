@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cpuids — what CPU is this?</title>
+<meta name="description" content="Paste /proc/cpuinfo and resolve it to a product name and microarchitecture, using the cpuids database." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>cpuids</h1>
+    <p class="tagline">Paste <code>/proc/cpuinfo</code>, find out what CPU you actually have.</p>
+  </header>
+
+  <main>
+    <label for="input" class="input-label">
+      Output of <code>cat /proc/cpuinfo</code> (only the first processor block is used):
+    </label>
+    <textarea id="input" spellcheck="false" placeholder="processor&#10;vendor_id&#9;: GenuineIntel&#10;cpu family&#9;: 6&#10;model&#9;: 143&#10;..."></textarea>
+
+    <div class="actions">
+      <button id="resolve">Resolve</button>
+      <span class="privacy-note">Runs entirely in your browser — nothing you paste leaves this page.</span>
+    </div>
+
+    <div id="result" class="result" hidden></div>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/fcuny/cpuids">fcuny/cpuids</a> ·
+      data generated <span id="generated-at">…</span>, schema v<span id="schema-version">…</span> ·
+      data released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+    </p>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
