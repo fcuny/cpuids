@@ -4,3 +4,7 @@
 # Fetched upstream files are never committed — not even as fixtures.
 /build/snapshots/
 *.snapshot
+
+# Copied into site/data/ from data/cpu_models.json for local preview / deploy;
+# data/cpu_models.json stays the single committed source.
+/site/data/
