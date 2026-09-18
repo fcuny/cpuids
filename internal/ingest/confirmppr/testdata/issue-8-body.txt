@@ -1,0 +1,11 @@
+### /proc/cpuinfo
+
+```text
+vendor_id	: AuthenticAMD
+cpu family	: 26
+model	: 36
+```
+
+### Suggested product name (optional)
+
+AMD EPYC 9005 (Turin)

@@ -1,0 +1,111 @@
+name: confirm-ppr
+
+# Lets a trusted maintainer confirm a community-reported CPU by replying on
+# the issue with a /confirm-ppr command citing a primary AMD document. See
+# cmd/cpuids-confirm-ppr and internal/ingest/confirmppr for what this
+# actually checks; it never merges anything, only opens a PR for review.
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: confirm-ppr-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  confirm:
+    if: >
+      github.event.issue.state == 'open' &&
+      contains(github.event.issue.labels.*.name, 'unknown-cpu') &&
+      startsWith(github.event.comment.body, '/confirm-ppr') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      # github.event.comment.body and github.event.issue.body are fully
+      # attacker-controlled text (any issue commenter can shape them, even
+      # though only a trusted commenter's own comment gates this job). Never
+      # interpolate them directly into a `run:` script (classic Actions
+      # script-injection vector) — pass through env and write with a quoted
+      # printf, not echo/heredoc-with-substitution.
+      - name: Write comment/issue text to files
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$COMMENT_BODY" > comment.txt
+          printf '%s' "$ISSUE_BODY" > issue.txt
+
+      - name: Run confirm-ppr
+        id: confirm
+        run: go run ./cmd/cpuids-confirm-ppr -comment-file comment.txt -issue-body-file issue.txt
+
+      - name: Reply on the issue
+        if: always() && steps.confirm.outputs.status != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS: ${{ steps.confirm.outputs.status }}
+          ROW_ID: ${{ steps.confirm.outputs.row_id }}
+          NAME: ${{ steps.confirm.outputs.name }}
+          FAMILY: ${{ steps.confirm.outputs.family }}
+          MODEL: ${{ steps.confirm.outputs.model }}
+        run: |
+          set -euo pipefail
+          case "$STATUS" in
+            added)
+              body="Confirmed — opened a PR adding \`$ROW_ID\` ($NAME). Still needs review before merging."
+              ;;
+            already_present)
+              body="\`$ROW_ID\` is already in amd_families.json as \"$NAME\" — nothing to do."
+              ;;
+            mismatch)
+              body="The cited document's Family/Model doesn't match this report (reported family=$FAMILY model=$MODEL). See the workflow run for details."
+              ;;
+            unsupported)
+              body="This automation only handles AMD x86 reports today (Intel/ARM have no writable landing spot yet — see issue #5). See the workflow run for details."
+              ;;
+            fetch_error)
+              body="Couldn't fetch or read a Family/Model identifier from the cited URL. See the workflow run for details."
+              ;;
+            command_error)
+              body="Couldn't parse that /confirm-ppr command or this issue's /proc/cpuinfo field. See the workflow run for details."
+              ;;
+            *)
+              body="confirm-ppr finished with an unrecognized status ($STATUS). See the workflow run for details."
+              ;;
+          esac
+          gh issue comment "${{ github.event.issue.number }}" --body "$body"
+
+      - name: Open PR
+        if: steps.confirm.outputs.status == 'added'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ROW_ID: ${{ steps.confirm.outputs.row_id }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          branch="confirm-ppr/$ROW_ID"
+          git config user.name  "cpuids-confirm-ppr[bot]"
+          git config user.email "cpuids-confirm-ppr@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add internal/ingest/parse/amd/amd_families.json
+          git commit -m "amd: add $ROW_ID (confirmed via PPR)
+
+          Closes #$ISSUE_NUMBER."
+          git push origin "$branch"
+          gh pr create \
+            --title "amd: add $ROW_ID" \
+            --body "Opened by /confirm-ppr on #$ISSUE_NUMBER. The cited document's Family/Model was checked against the report automatically; the product name/segment/aliases were supplied by the confirming maintainer and are not independently verified by this workflow. Review before merging." \
+            --label unknown-cpu
