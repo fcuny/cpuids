@@ -1,0 +1,31 @@
+name: Unknown CPU report
+description: Report a CPU that the lookup tool (or /proc/cpuinfo) didn't match against the database.
+title: "Unknown CPU: "
+labels: ["unknown-cpu"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a CPU that's missing from the dataset.
+
+        This does **not** get merged automatically. Every row in this dataset
+        traces to a vendor-assigned fact or a primary document (a kernel/
+        util-linux source, or an AMD PPR). A maintainer needs to confirm your
+        report against a primary source before it's added — treat this as a
+        lead, not a finished submission.
+  - type: textarea
+    id: raw
+    attributes:
+      label: /proc/cpuinfo
+      description: >
+        Auto-filled if you got here from the site lookup tool. Otherwise, run
+        `cat /proc/cpuinfo | head -20` and paste the output below.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: suggested_name
+    attributes:
+      label: Suggested product name (optional)
+      description: Only if you're confident — this still needs primary-source confirmation before it's added.
+      placeholder: "e.g. AMD EPYC 9005 (Turin)"

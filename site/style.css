@@ -150,6 +150,25 @@ button:hover { filter: brightness(1.08); }
   margin-top: 0.75rem;
 }
 
+.result .input-label {
+  margin-top: 0.75rem;
+}
+
+.result .suggest-name-input {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem 0.65rem;
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.result .suggest-name-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
 .result .report-link {
   display: inline-block;
   margin-top: 0.75rem;
