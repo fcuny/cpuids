@@ -94,7 +94,7 @@ function resolveX86(fields) {
   const row = state.x86.get(x86Key(vendor, fam, mod));
   const keyLabel = `vendor=${vendor} family=${fam} model=${mod}`;
   if (!row) {
-    showNotFound(keyLabel, { vendor, family: fam, model: mod, source: "x86" });
+    showNotFound(keyLabel, fields);
     return;
   }
   showModel(row, keyLabel);
@@ -116,7 +116,7 @@ function resolveARM(fields) {
   const row = state.arm.get(armKey(impl, part));
   const keyLabel = `implementer=0x${impl.toString(16)} part=0x${part.toString(16)}`;
   if (!row) {
-    showNotFound(keyLabel, { implementer: "0x" + impl.toString(16), part: "0x" + part.toString(16), source: "arm" });
+    showNotFound(keyLabel, fields);
     return;
   }
   showModel(row, keyLabel);
@@ -140,19 +140,40 @@ function showModel(row, keyLabel) {
   `;
 }
 
-function showNotFound(keyLabel, parsed) {
+function showNotFound(keyLabel, fields) {
   els.result.className = "result err";
   els.result.hidden = false;
-  const title = encodeURIComponent(`Unknown CPU: ${keyLabel}`);
-  const body = encodeURIComponent(
-    `Looked up but not found in the database:\n\n\`\`\`\n${JSON.stringify(parsed, null, 2)}\n\`\`\`\n`
-  );
-  const issueURL = `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
   els.result.innerHTML = `
     <h2>Not in the database</h2>
     <p>Parsed <span class="key">${escapeHTML(keyLabel)}</span> but no matching row exists yet.</p>
-    <a class="report-link" href="${issueURL}" target="_blank" rel="noopener">Report this on GitHub →</a>
+    <label class="input-label" for="suggest-name">Know what this is? Suggest a name (optional):</label>
+    <input type="text" id="suggest-name" class="suggest-name-input" placeholder="e.g. AMD EPYC 9005 (Turin)" />
+    <button type="button" class="report-link" id="report-btn">Report this on GitHub →</button>
   `;
+  document.getElementById("report-btn").addEventListener("click", () => {
+    const suggestedName = document.getElementById("suggest-name").value.trim();
+    window.open(buildIssueURL(keyLabel, fields, suggestedName), "_blank", "noopener");
+  });
+}
+
+// buildIssueURL prefills the GitHub issue form at
+// .github/ISSUE_TEMPLATE/unknown-cpu.yml — query param names must match that
+// form's field ids.
+function buildIssueURL(keyLabel, fields, suggestedName) {
+  const params = new URLSearchParams();
+  params.set("template", "unknown-cpu.yml");
+  params.set("title", `Unknown CPU: ${keyLabel}`);
+  params.set("raw", blockText(fields));
+  if (suggestedName) params.set("suggested_name", suggestedName);
+  return `https://github.com/${REPO}/issues/new?${params.toString()}`;
+}
+
+// blockText re-renders a parsed /proc/cpuinfo block back into "key : value"
+// lines, the same shape a manual reporter would paste in.
+function blockText(fields) {
+  return Object.entries(fields)
+    .map(([key, value]) => `${key}\t: ${value}`)
+    .join("\n");
 }
 
 function showError(message) {
