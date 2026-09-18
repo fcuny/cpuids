@@ -94,6 +94,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ROW_ID: ${{ steps.confirm.outputs.row_id }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO_OWNER: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
           branch="confirm-ppr/$ROW_ID"
@@ -108,4 +109,5 @@ jobs:
           gh pr create \
             --title "amd: add $ROW_ID" \
             --body "Opened by /confirm-ppr on #$ISSUE_NUMBER. The cited document's Family/Model was checked against the report automatically; the product name/segment/aliases were supplied by the confirming maintainer and are not independently verified by this workflow. Review before merging." \
-            --label unknown-cpu
+            --label unknown-cpu \
+            --assignee "$REPO_OWNER"
