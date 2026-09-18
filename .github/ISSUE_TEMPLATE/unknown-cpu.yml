@@ -2,6 +2,7 @@ name: Unknown CPU report
 description: Report a CPU that the lookup tool (or /proc/cpuinfo) didn't match against the database.
 title: "Unknown CPU: "
 labels: ["unknown-cpu"]
+assignees: ["fcuny"]
 body:
   - type: markdown
     attributes:

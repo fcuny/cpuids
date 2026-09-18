@@ -34,6 +34,7 @@ jobs:
         if: steps.ingest.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
           branch="ingest/$(date -u +%Y%m%d-%H%M%S)"
@@ -48,4 +49,5 @@ jobs:
           gh pr create \
             --title "data: refresh from upstream sources" \
             --body "Automated ingestion run. Review the diff before merging: a sharp change may be a parser regression rather than real upstream movement. The absolute (zero-record) and count-drop canaries have already passed." \
-            --label ingest
+            --label ingest \
+            --assignee "$REPO_OWNER"
