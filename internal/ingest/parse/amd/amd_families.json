@@ -7,6 +7,7 @@
     { "family": 25, "model": 1,   "name": "Milan",   "microarch": "Zen 3",  "segment": "server", "release_year": 2021, "aliases": ["EPYC 7003"] },
     { "family": 25, "model": 17,  "name": "Genoa",   "microarch": "Zen 4",  "segment": "server", "release_year": 2022, "aliases": ["EPYC 9004"] },
     { "family": 25, "model": 33,  "name": "Vermeer", "microarch": "Zen 3",  "segment": "client", "release_year": 2020, "aliases": ["Ryzen 5000"] },
-    { "family": 25, "model": 97,  "name": "Bergamo", "microarch": "Zen 4c", "segment": "server", "release_year": 2023, "aliases": ["EPYC 9704"] }
+    { "family": 25, "model": 97,  "name": "Bergamo", "microarch": "Zen 4c", "segment": "server", "release_year": 2023, "aliases": ["EPYC 9704"] },
+    { "family": 26, "model": 2,   "name": "Turin",   "microarch": "Zen 5",  "segment": "server", "release_year": 2024, "aliases": ["EPYC 9005"] }
   ]
 }
