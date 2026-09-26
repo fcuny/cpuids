@@ -110,8 +110,13 @@ func (c *Client) fetchOne(ctx context.Context, s Source, localDir string) (Fetch
 	if ref == "" {
 		ref = "HEAD"
 	}
-	rawURL := fmt.Sprintf("https://raw.githubusercontent.com/%s/%s/%s", s.Repo, ref, s.Path)
-	body, err := c.get(ctx, rawURL, "")
+	// api.github.com/.../contents counts against the caller's normal API rate
+	// limit (5000/hr authenticated) instead of raw.githubusercontent.com's
+	// unauthenticated-and-shared-by-IP limit, which is what was 429-ing CI
+	// runners. The raw media type only returns the file body directly for
+	// files <=1MB; all current sources are small header/definition files.
+	contentsURL := fmt.Sprintf("https://api.github.com/repos/%s/contents/%s?ref=%s", s.Repo, s.Path, ref)
+	body, err := c.get(ctx, contentsURL, "application/vnd.github.raw+json")
 	if err != nil {
 		return Fetched{}, err
 	}
@@ -143,10 +148,39 @@ func (c *Client) resolveCommit(ctx context.Context, s Source, ref string) string
 	return commits[0].SHA
 }
 
+// get retries a rate-limit or server error a few times with backoff, since
+// GitHub's API occasionally 429s or 5xxs transiently under load.
 func (c *Client) get(ctx context.Context, url, accept string) ([]byte, error) {
+	const maxAttempts = 4
+	backoff := time.Second
+
+	var lastErr error
+	for attempt := 1; attempt <= maxAttempts; attempt++ {
+		body, status, err := c.getOnce(ctx, url, accept)
+		if err == nil {
+			return body, nil
+		}
+		lastErr = err
+		if status != http.StatusTooManyRequests && (status < 500 || status > 599) {
+			return nil, err
+		}
+		if attempt == maxAttempts {
+			break
+		}
+		select {
+		case <-ctx.Done():
+			return nil, ctx.Err()
+		case <-time.After(backoff):
+		}
+		backoff *= 2
+	}
+	return nil, lastErr
+}
+
+func (c *Client) getOnce(ctx context.Context, url, accept string) ([]byte, int, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 	if accept != "" {
 		req.Header.Set("Accept", accept)
@@ -156,17 +190,17 @@ func (c *Client) get(ctx context.Context, url, accept string) ([]byte, error) {
 	}
 	resp, err := c.httpClient().Do(req)
 	if err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 	defer resp.Body.Close()
 	body, err := io.ReadAll(io.LimitReader(resp.Body, 8<<20))
 	if err != nil {
-		return nil, err
+		return nil, resp.StatusCode, err
 	}
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("GET %s: %s", url, resp.Status)
+		return nil, resp.StatusCode, fmt.Errorf("GET %s: %s", url, resp.Status)
 	}
-	return body, nil
+	return body, resp.StatusCode, nil
 }
 
 func joinLocal(dir, path string) string {
