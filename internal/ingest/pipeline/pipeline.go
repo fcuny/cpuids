@@ -183,7 +183,7 @@ func Run(ctx context.Context, opt Options) (Result, error) {
 		res.Messages = append(res.Messages, "no source commit changed since last run")
 	}
 	if !res.Changed {
-		res.Messages = append(res.Messages, "canonical JSON is byte-identical (ignoring timestamps); nothing to write")
+		res.Messages = append(res.Messages, "canonical JSON is byte-identical (ignoring timestamps and source commit hashes); nothing to write")
 		return res, nil
 	}
 
@@ -236,8 +236,10 @@ func snapshotExt(path string) string {
 	return ".txt"
 }
 
-// normalizeManifestNoise blanks the generated_at line so a rerun with no data
-// change is not reported as a diff purely because time passed.
+// normalizeManifestNoise blanks fields that record *when* and *against which
+// upstream commit* a run happened, so a rerun that re-fetches an upstream
+// source and gets byte-identical records back — just pinned to a newer SHA —
+// is not reported as a diff purely because provenance advanced.
 func normalizeManifestNoise(b []byte) []byte {
 	if len(b) == 0 {
 		return b
@@ -246,7 +248,9 @@ func normalizeManifestNoise(b []byte) []byte {
 	for _, line := range bytes.Split(b, []byte("\n")) {
 		trimmed := bytes.TrimSpace(line)
 		if bytes.HasPrefix(trimmed, []byte(`"generated_at"`)) ||
-			bytes.HasPrefix(trimmed, []byte(`"ingested_at"`)) {
+			bytes.HasPrefix(trimmed, []byte(`"ingested_at"`)) ||
+			bytes.HasPrefix(trimmed, []byte(`"commit"`)) ||
+			bytes.HasPrefix(trimmed, []byte(`"source_commit"`)) {
 			continue
 		}
 		out = append(out, line...)
