@@ -1,6 +1,7 @@
 package pipeline
 
 import (
+	"bytes"
 	"context"
 	"os"
 	"path/filepath"
@@ -109,6 +110,64 @@ func TestCanaryTripsOnCountDrop(t *testing.T) {
 	}
 	if _, statErr := os.Stat(opt.DataPath); statErr == nil {
 		t.Error("canary failure must not write output")
+	}
+}
+
+// A source can be re-fetched at a newer upstream commit and still parse to
+// byte-identical records (PR #17: util-linux/util-linux advanced but the
+// ARM table it was pinned to didn't change). That's provenance churn, not a
+// real data change, and must not be reported as one.
+func TestNormalizeManifestNoiseIgnoresProvenanceChurn(t *testing.T) {
+	const before = `{
+  "manifest": {
+    "generated_at": "2026-09-18T23:18:49Z",
+    "sources": [
+      {
+        "repo": "util-linux/util-linux",
+        "commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087"
+      }
+    ]
+  },
+  "models": [
+    {
+      "id": "arm-1-1",
+      "provenance": {
+        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
+        "ingested_at": "2026-09-18T23:18:49Z"
+      }
+    }
+  ]
+}`
+	const after = `{
+  "manifest": {
+    "generated_at": "2026-10-02T12:43:41Z",
+    "sources": [
+      {
+        "repo": "util-linux/util-linux",
+        "commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6"
+      }
+    ]
+  },
+  "models": [
+    {
+      "id": "arm-1-1",
+      "provenance": {
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-10-02T12:43:41Z"
+      }
+    }
+  ]
+}`
+	if !bytes.Equal(normalizeManifestNoise([]byte(before)), normalizeManifestNoise([]byte(after))) {
+		t.Error("provenance-only churn (timestamps + source commit) must normalize to the same bytes")
+	}
+
+	const realChange = `{
+  "manifest": {"generated_at": "2026-10-02T12:43:41Z", "sources": []},
+  "models": [{"id": "arm-1-1", "name": "Renamed", "provenance": {"ingested_at": "2026-10-02T12:43:41Z"}}]
+}`
+	if bytes.Equal(normalizeManifestNoise([]byte(before)), normalizeManifestNoise([]byte(realChange))) {
+		t.Error("an actual data change must not be normalized away")
 	}
 }
 
