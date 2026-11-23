@@ -1,15 +1,15 @@
 {
   "manifest": {
     "schema_version": 1,
-    "generated_at": "2026-09-18T23:18:49Z",
+    "generated_at": "2026-11-23T18:19:42Z",
     "sources": [
       {
         "repo": "torvalds/linux",
-        "commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2"
+        "commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b"
       },
       {
         "repo": "util-linux/util-linux",
-        "commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087"
+        "commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6"
       },
       {
         "repo": "",
@@ -39,7 +39,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -64,7 +64,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -89,7 +89,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -114,7 +114,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -139,7 +139,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -164,7 +164,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -189,7 +189,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -214,7 +214,7 @@
         "source_repo": "",
         "source_path": "internal/ingest/parse/amd/amd_families.json",
         "source_commit": "",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -236,8 +236,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -259,8 +259,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -282,8 +282,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -305,8 +305,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -328,8 +328,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -351,8 +351,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -374,8 +374,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -397,8 +397,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -420,8 +420,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -443,8 +443,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -466,8 +466,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -489,8 +489,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -512,8 +512,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -535,8 +535,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -558,8 +558,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -581,8 +581,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -604,8 +604,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -627,8 +627,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -650,8 +650,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -673,8 +673,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -696,8 +696,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -719,8 +719,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -742,8 +742,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -765,8 +765,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -788,8 +788,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -811,8 +811,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -834,8 +834,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -857,8 +857,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -880,8 +880,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -903,8 +903,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -926,8 +926,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -949,8 +949,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -972,8 +972,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -995,8 +995,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1018,8 +1018,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1041,8 +1041,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1064,8 +1064,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1087,8 +1087,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1110,8 +1110,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1133,8 +1133,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1156,8 +1156,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1179,8 +1179,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1202,8 +1202,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1225,8 +1225,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1248,8 +1248,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1271,8 +1271,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1294,8 +1294,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1317,8 +1317,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1340,8 +1340,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1363,8 +1363,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1386,8 +1386,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1409,8 +1409,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1432,8 +1432,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1455,8 +1455,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1478,8 +1478,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1501,8 +1501,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1524,8 +1524,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1547,8 +1547,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1570,8 +1570,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1593,8 +1593,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1616,8 +1616,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1639,8 +1639,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1662,8 +1662,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1685,8 +1685,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1708,8 +1708,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1731,8 +1731,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1754,8 +1754,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1777,8 +1777,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1800,8 +1800,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1823,8 +1823,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1846,8 +1846,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1869,8 +1869,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1892,8 +1892,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1915,8 +1915,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1938,8 +1938,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1961,8 +1961,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -1984,8 +1984,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2007,8 +2007,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2030,8 +2030,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2053,8 +2053,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2076,8 +2076,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2099,8 +2099,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2122,8 +2122,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2145,8 +2145,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2168,8 +2168,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2191,8 +2191,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2214,8 +2214,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2237,8 +2237,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2260,8 +2260,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2283,8 +2283,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2306,8 +2306,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2329,8 +2329,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2352,8 +2352,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2375,8 +2375,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2398,8 +2398,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2421,8 +2421,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2444,8 +2444,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2467,8 +2467,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2490,8 +2490,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2513,8 +2513,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2536,8 +2536,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2559,8 +2559,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2582,8 +2582,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2605,8 +2605,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2628,8 +2628,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2651,8 +2651,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2674,8 +2674,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2697,8 +2697,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2720,8 +2720,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2743,8 +2743,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2766,8 +2766,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2789,8 +2789,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2812,8 +2812,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2835,8 +2835,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2858,8 +2858,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2881,8 +2881,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2904,8 +2904,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2927,8 +2927,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2950,8 +2950,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2973,8 +2973,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -2996,8 +2996,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3019,8 +3019,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3042,8 +3042,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3065,8 +3065,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3088,8 +3088,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3111,8 +3111,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3134,8 +3134,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3157,8 +3157,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3180,8 +3180,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3203,8 +3203,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3226,8 +3226,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3249,8 +3249,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3272,8 +3272,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3295,8 +3295,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3318,8 +3318,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3341,8 +3341,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3364,8 +3364,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3387,8 +3387,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3410,8 +3410,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3433,8 +3433,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3456,8 +3456,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3479,8 +3479,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3502,8 +3502,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3525,8 +3525,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3548,8 +3548,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3571,8 +3571,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3594,8 +3594,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3617,8 +3617,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3640,8 +3640,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3663,8 +3663,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3686,8 +3686,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3709,8 +3709,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3732,8 +3732,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3755,8 +3755,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3778,8 +3778,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3801,8 +3801,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3824,8 +3824,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3847,8 +3847,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3870,8 +3870,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3893,8 +3893,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3916,8 +3916,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3939,8 +3939,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3962,8 +3962,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -3985,8 +3985,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4008,8 +4008,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4031,8 +4031,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4054,8 +4054,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4077,8 +4077,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4100,8 +4100,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4123,8 +4123,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4146,8 +4146,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4169,8 +4169,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4192,8 +4192,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4215,8 +4215,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4238,8 +4238,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4261,8 +4261,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4284,8 +4284,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4307,8 +4307,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4330,8 +4330,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4353,8 +4353,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4376,8 +4376,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4399,8 +4399,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4422,8 +4422,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4445,8 +4445,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4468,8 +4468,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4491,8 +4491,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4514,8 +4514,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4537,8 +4537,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4560,8 +4560,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4583,8 +4583,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4606,8 +4606,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4629,8 +4629,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4652,8 +4652,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4675,8 +4675,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4698,8 +4698,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4721,8 +4721,8 @@
       "provenance": {
         "source_repo": "util-linux/util-linux",
         "source_path": "sys-utils/lscpu-arm.c",
-        "source_commit": "4b53cfd3024cda66bc62a39e9a1ae2e465a93087",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "6506d607a0d6cfeb3e9e4de1d9f20cadafafb1d6",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "exact"
       }
     },
@@ -4744,8 +4744,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4767,8 +4767,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4790,8 +4790,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4813,8 +4813,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4836,8 +4836,31 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-18-10",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 18,
+      "model": 10,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Razorlake",
+      "microarch_codename": "Razorlake",
+      "segment": "client",
+      "generation_rank": 19,
+      "release_year": 0,
+      "aliases": null,
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4859,8 +4882,77 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-18-6",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 18,
+      "model": 6,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Razorlake",
+      "microarch_codename": "Razorlake",
+      "segment": "unknown",
+      "generation_rank": 14,
+      "release_year": 0,
+      "aliases": null,
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-18-7",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 18,
+      "model": 7,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Razorlake",
+      "microarch_codename": "Razorlake",
+      "segment": "client",
+      "generation_rank": 15,
+      "release_year": 0,
+      "aliases": null,
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-18-9",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 18,
+      "model": 9,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Razorlake U",
+      "microarch_codename": "Razorlake U",
+      "segment": "client",
+      "generation_rank": 17,
+      "release_year": 0,
+      "aliases": null,
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4882,8 +4974,31 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
+        "confidence": "inferred"
+      }
+    },
+    {
+      "id": "intel-19-8",
+      "vendor": "GenuineIntel",
+      "arch": "x86_64",
+      "family": 19,
+      "model": 8,
+      "implementer_id": null,
+      "part_id": null,
+      "name": "Coralrapids",
+      "microarch_codename": "Coralrapids",
+      "segment": "server",
+      "generation_rank": 16,
+      "release_year": 0,
+      "aliases": null,
+      "notes": "",
+      "provenance": {
+        "source_repo": "torvalds/linux",
+        "source_path": "arch/x86/include/asm/intel-family.h",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4905,8 +5020,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4928,8 +5043,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4951,8 +5066,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4967,15 +5082,15 @@
       "name": "Quark X1000",
       "microarch_codename": "Quark X1000",
       "segment": "unknown",
-      "generation_rank": 14,
+      "generation_rank": 18,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -4997,8 +5112,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5013,15 +5128,15 @@
       "name": "Cannonlake",
       "microarch_codename": "Cannonlake",
       "segment": "client",
-      "generation_rank": 57,
+      "generation_rank": 62,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5036,15 +5151,15 @@
       "name": "Icelake",
       "microarch_codename": "Icelake",
       "segment": "server",
-      "generation_rank": 58,
+      "generation_rank": 63,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5059,15 +5174,15 @@
       "name": "Icelake",
       "microarch_codename": "Icelake",
       "segment": "server",
-      "generation_rank": 59,
+      "generation_rank": 64,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5082,15 +5197,15 @@
       "name": "Pentium Iii Tualatin",
       "microarch_codename": "Pentium Iii Tualatin",
       "segment": "unknown",
-      "generation_rank": 15,
+      "generation_rank": 20,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5105,15 +5220,15 @@
       "name": "Atom Airmont Np",
       "microarch_codename": "Atom Airmont Np",
       "segment": "unknown",
-      "generation_rank": 60,
+      "generation_rank": 65,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5128,15 +5243,15 @@
       "name": "Atom Goldmont Plus",
       "microarch_codename": "Atom Goldmont Plus",
       "segment": "unknown",
-      "generation_rank": 61,
+      "generation_rank": 66,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5151,15 +5266,15 @@
       "name": "Icelake",
       "microarch_codename": "Icelake",
       "segment": "unknown",
-      "generation_rank": 62,
+      "generation_rank": 67,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5174,15 +5289,15 @@
       "name": "Icelake",
       "microarch_codename": "Icelake",
       "segment": "client",
-      "generation_rank": 63,
+      "generation_rank": 68,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5197,15 +5312,15 @@
       "name": "Pentium M Dothan",
       "microarch_codename": "Pentium M Dothan",
       "segment": "unknown",
-      "generation_rank": 16,
+      "generation_rank": 21,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5220,15 +5335,15 @@
       "name": "Xeon Phi Knm",
       "microarch_codename": "Xeon Phi Knm",
       "segment": "unknown",
-      "generation_rank": 64,
+      "generation_rank": 69,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5243,15 +5358,15 @@
       "name": "Atom Tremont",
       "microarch_codename": "Atom Tremont",
       "segment": "server",
-      "generation_rank": 65,
+      "generation_rank": 70,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5266,15 +5381,15 @@
       "name": "Lakefield",
       "microarch_codename": "Lakefield",
       "segment": "unknown",
-      "generation_rank": 66,
+      "generation_rank": 71,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5289,15 +5404,15 @@
       "name": "Core Yonah",
       "microarch_codename": "Core Yonah",
       "segment": "unknown",
-      "generation_rank": 17,
+      "generation_rank": 22,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5312,15 +5427,15 @@
       "name": "Tigerlake",
       "microarch_codename": "Tigerlake",
       "segment": "client",
-      "generation_rank": 67,
+      "generation_rank": 72,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5335,15 +5450,15 @@
       "name": "Tigerlake",
       "microarch_codename": "Tigerlake",
       "segment": "unknown",
-      "generation_rank": 68,
+      "generation_rank": 73,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5358,15 +5473,15 @@
       "name": "Kabylake",
       "microarch_codename": "Kabylake",
       "segment": "client",
-      "generation_rank": 69,
+      "generation_rank": 74,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5381,7 +5496,7 @@
       "name": "Sapphire Rapids-SP",
       "microarch_codename": "Sapphire Rapids",
       "segment": "server",
-      "generation_rank": 99,
+      "generation_rank": 104,
       "release_year": 2023,
       "aliases": [
         "4th Gen Intel Xeon Scalable"
@@ -5390,8 +5505,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5406,15 +5521,15 @@
       "name": "Core2 Merom",
       "microarch_codename": "Core2 Merom",
       "segment": "unknown",
-      "generation_rank": 18,
+      "generation_rank": 23,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5429,15 +5544,15 @@
       "name": "Atom Tremont",
       "microarch_codename": "Atom Tremont",
       "segment": "unknown",
-      "generation_rank": 70,
+      "generation_rank": 75,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5452,15 +5567,15 @@
       "name": "Alderlake",
       "microarch_codename": "Alderlake",
       "segment": "unknown",
-      "generation_rank": 71,
+      "generation_rank": 76,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5475,15 +5590,15 @@
       "name": "Alderlake",
       "microarch_codename": "Alderlake",
       "segment": "client",
-      "generation_rank": 72,
+      "generation_rank": 77,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5498,15 +5613,15 @@
       "name": "Atom Tremont",
       "microarch_codename": "Atom Tremont",
       "segment": "client",
-      "generation_rank": 73,
+      "generation_rank": 78,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5521,15 +5636,15 @@
       "name": "Icelake Nnpi",
       "microarch_codename": "Icelake Nnpi",
       "segment": "unknown",
-      "generation_rank": 74,
+      "generation_rank": 79,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5544,15 +5659,15 @@
       "name": "Kabylake",
       "microarch_codename": "Kabylake",
       "segment": "unknown",
-      "generation_rank": 75,
+      "generation_rank": 80,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5567,15 +5682,15 @@
       "name": "Cometlake",
       "microarch_codename": "Cometlake",
       "segment": "unknown",
-      "generation_rank": 76,
+      "generation_rank": 81,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5590,15 +5705,15 @@
       "name": "Cometlake",
       "microarch_codename": "Cometlake",
       "segment": "client",
-      "generation_rank": 77,
+      "generation_rank": 82,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5613,15 +5728,15 @@
       "name": "Rocketlake",
       "microarch_codename": "Rocketlake",
       "segment": "unknown",
-      "generation_rank": 78,
+      "generation_rank": 83,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5636,15 +5751,15 @@
       "name": "Meteorlake",
       "microarch_codename": "Meteorlake",
       "segment": "client",
-      "generation_rank": 79,
+      "generation_rank": 84,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5659,15 +5774,15 @@
       "name": "Meteorlake",
       "microarch_codename": "Meteorlake",
       "segment": "unknown",
-      "generation_rank": 80,
+      "generation_rank": 85,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5682,15 +5797,15 @@
       "name": "Graniterapids",
       "microarch_codename": "Graniterapids",
       "segment": "server",
-      "generation_rank": 81,
+      "generation_rank": 86,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5705,15 +5820,15 @@
       "name": "Graniterapids",
       "microarch_codename": "Graniterapids",
       "segment": "server",
-      "generation_rank": 82,
+      "generation_rank": 87,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5728,15 +5843,15 @@
       "name": "Atom Crestmont",
       "microarch_codename": "Atom Crestmont",
       "segment": "server",
-      "generation_rank": 83,
+      "generation_rank": 88,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5751,15 +5866,15 @@
       "name": "Arrowlake U",
       "microarch_codename": "Arrowlake U",
       "segment": "client",
-      "generation_rank": 84,
+      "generation_rank": 89,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5774,15 +5889,15 @@
       "name": "Atom Crestmont",
       "microarch_codename": "Atom Crestmont",
       "segment": "unknown",
-      "generation_rank": 85,
+      "generation_rank": 90,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5797,15 +5912,15 @@
       "name": "Raptorlake",
       "microarch_codename": "Raptorlake",
       "segment": "unknown",
-      "generation_rank": 86,
+      "generation_rank": 91,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5820,15 +5935,15 @@
       "name": "Raptorlake P",
       "microarch_codename": "Raptorlake P",
       "segment": "client",
-      "generation_rank": 87,
+      "generation_rank": 92,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5843,15 +5958,15 @@
       "name": "Lunarlake M",
       "microarch_codename": "Lunarlake M",
       "segment": "client",
-      "generation_rank": 88,
+      "generation_rank": 93,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5866,15 +5981,15 @@
       "name": "Atom Gracemont",
       "microarch_codename": "Atom Gracemont",
       "segment": "unknown",
-      "generation_rank": 89,
+      "generation_rank": 94,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5889,15 +6004,15 @@
       "name": "Raptorlake",
       "microarch_codename": "Raptorlake",
       "segment": "client",
-      "generation_rank": 90,
+      "generation_rank": 95,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5912,15 +6027,15 @@
       "name": "Arrowlake",
       "microarch_codename": "Arrowlake",
       "segment": "client",
-      "generation_rank": 91,
+      "generation_rank": 96,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5935,15 +6050,15 @@
       "name": "Arrowlake",
       "microarch_codename": "Arrowlake",
       "segment": "unknown",
-      "generation_rank": 92,
+      "generation_rank": 97,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5958,15 +6073,15 @@
       "name": "Pantherlake",
       "microarch_codename": "Pantherlake",
       "segment": "client",
-      "generation_rank": 93,
+      "generation_rank": 98,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -5981,7 +6096,7 @@
       "name": "Emerald Rapids-SP",
       "microarch_codename": "Emerald Rapids",
       "segment": "server",
-      "generation_rank": 100,
+      "generation_rank": 105,
       "release_year": 2023,
       "aliases": [
         "5th Gen Intel Xeon Scalable"
@@ -5990,8 +6105,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6006,15 +6121,15 @@
       "name": "Wildcatlake",
       "microarch_codename": "Wildcatlake",
       "segment": "client",
-      "generation_rank": 94,
+      "generation_rank": 99,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6029,15 +6144,15 @@
       "name": "Bartlettlake",
       "microarch_codename": "Bartlettlake",
       "segment": "unknown",
-      "generation_rank": 95,
+      "generation_rank": 100,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6052,15 +6167,15 @@
       "name": "Core2 Merom",
       "microarch_codename": "Core2 Merom",
       "segment": "client",
-      "generation_rank": 19,
+      "generation_rank": 24,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6075,15 +6190,15 @@
       "name": "Atom Darkmont",
       "microarch_codename": "Atom Darkmont",
       "segment": "server",
-      "generation_rank": 96,
+      "generation_rank": 101,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6098,15 +6213,15 @@
       "name": "Pantherlake R",
       "microarch_codename": "Pantherlake R",
       "segment": "unknown",
-      "generation_rank": 97,
+      "generation_rank": 102,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6121,15 +6236,15 @@
       "name": "Core2 Penryn",
       "microarch_codename": "Core2 Penryn",
       "segment": "unknown",
-      "generation_rank": 20,
+      "generation_rank": 25,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6144,15 +6259,15 @@
       "name": "Last",
       "microarch_codename": "Last",
       "segment": "unknown",
-      "generation_rank": 98,
+      "generation_rank": 103,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6167,15 +6282,15 @@
       "name": "Nehalem Ep",
       "microarch_codename": "Nehalem Ep",
       "segment": "unknown",
-      "generation_rank": 21,
+      "generation_rank": 26,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6190,15 +6305,15 @@
       "name": "Atom Bonnell",
       "microarch_codename": "Atom Bonnell",
       "segment": "unknown",
-      "generation_rank": 22,
+      "generation_rank": 27,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6213,15 +6328,15 @@
       "name": "Core2 Dunnington",
       "microarch_codename": "Core2 Dunnington",
       "segment": "unknown",
-      "generation_rank": 23,
+      "generation_rank": 28,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6243,8 +6358,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6259,15 +6374,15 @@
       "name": "Nehalem",
       "microarch_codename": "Nehalem",
       "segment": "unknown",
-      "generation_rank": 24,
+      "generation_rank": 29,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6282,15 +6397,15 @@
       "name": "Nehalem G",
       "microarch_codename": "Nehalem G",
       "segment": "client",
-      "generation_rank": 25,
+      "generation_rank": 30,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6305,15 +6420,15 @@
       "name": "Westmere",
       "microarch_codename": "Westmere",
       "segment": "unknown",
-      "generation_rank": 26,
+      "generation_rank": 31,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6328,15 +6443,15 @@
       "name": "Atom Bonnell Mid",
       "microarch_codename": "Atom Bonnell Mid",
       "segment": "unknown",
-      "generation_rank": 27,
+      "generation_rank": 32,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6351,15 +6466,15 @@
       "name": "Atom Saltwell Mid",
       "microarch_codename": "Atom Saltwell Mid",
       "segment": "unknown",
-      "generation_rank": 28,
+      "generation_rank": 33,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6374,15 +6489,15 @@
       "name": "Sandybridge",
       "microarch_codename": "Sandybridge",
       "segment": "unknown",
-      "generation_rank": 29,
+      "generation_rank": 34,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6397,15 +6512,15 @@
       "name": "Westmere Ep",
       "microarch_codename": "Westmere Ep",
       "segment": "unknown",
-      "generation_rank": 30,
+      "generation_rank": 35,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6420,15 +6535,15 @@
       "name": "Sandybridge",
       "microarch_codename": "Sandybridge",
       "segment": "server",
-      "generation_rank": 31,
+      "generation_rank": 36,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6443,15 +6558,15 @@
       "name": "Nehalem Ex",
       "microarch_codename": "Nehalem Ex",
       "segment": "unknown",
-      "generation_rank": 32,
+      "generation_rank": 37,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6466,15 +6581,15 @@
       "name": "Westmere Ex",
       "microarch_codename": "Westmere Ex",
       "segment": "unknown",
-      "generation_rank": 33,
+      "generation_rank": 38,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6496,8 +6611,8 @@
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6512,15 +6627,15 @@
       "name": "Atom Saltwell Tablet",
       "microarch_codename": "Atom Saltwell Tablet",
       "segment": "unknown",
-      "generation_rank": 34,
+      "generation_rank": 39,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6535,15 +6650,15 @@
       "name": "Atom Saltwell",
       "microarch_codename": "Atom Saltwell",
       "segment": "unknown",
-      "generation_rank": 35,
+      "generation_rank": 40,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6558,15 +6673,15 @@
       "name": "Atom Silvermont",
       "microarch_codename": "Atom Silvermont",
       "segment": "unknown",
-      "generation_rank": 36,
+      "generation_rank": 41,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6581,15 +6696,15 @@
       "name": "Ivybridge",
       "microarch_codename": "Ivybridge",
       "segment": "unknown",
-      "generation_rank": 37,
+      "generation_rank": 42,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6604,15 +6719,15 @@
       "name": "Haswell",
       "microarch_codename": "Haswell",
       "segment": "unknown",
-      "generation_rank": 38,
+      "generation_rank": 43,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6627,15 +6742,15 @@
       "name": "Broadwell",
       "microarch_codename": "Broadwell",
       "segment": "unknown",
-      "generation_rank": 39,
+      "generation_rank": 44,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6650,15 +6765,15 @@
       "name": "Ivybridge",
       "microarch_codename": "Ivybridge",
       "segment": "server",
-      "generation_rank": 40,
+      "generation_rank": 45,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6673,15 +6788,15 @@
       "name": "Haswell",
       "microarch_codename": "Haswell",
       "segment": "server",
-      "generation_rank": 41,
+      "generation_rank": 46,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6696,15 +6811,15 @@
       "name": "Haswell",
       "microarch_codename": "Haswell",
       "segment": "client",
-      "generation_rank": 42,
+      "generation_rank": 47,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6719,15 +6834,15 @@
       "name": "Haswell G",
       "microarch_codename": "Haswell G",
       "segment": "client",
-      "generation_rank": 43,
+      "generation_rank": 48,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6742,15 +6857,15 @@
       "name": "Broadwell G",
       "microarch_codename": "Broadwell G",
       "segment": "client",
-      "generation_rank": 44,
+      "generation_rank": 49,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6765,15 +6880,15 @@
       "name": "Atom Silvermont Mid",
       "microarch_codename": "Atom Silvermont Mid",
       "segment": "unknown",
-      "generation_rank": 45,
+      "generation_rank": 50,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6788,15 +6903,15 @@
       "name": "Atom Airmont",
       "microarch_codename": "Atom Airmont",
       "segment": "unknown",
-      "generation_rank": 46,
+      "generation_rank": 51,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6811,15 +6926,15 @@
       "name": "Atom Silvermont",
       "microarch_codename": "Atom Silvermont",
       "segment": "server",
-      "generation_rank": 47,
+      "generation_rank": 52,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6834,15 +6949,15 @@
       "name": "Skylake",
       "microarch_codename": "Skylake",
       "segment": "client",
-      "generation_rank": 48,
+      "generation_rank": 53,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6857,15 +6972,15 @@
       "name": "Broadwell",
       "microarch_codename": "Broadwell",
       "segment": "server",
-      "generation_rank": 49,
+      "generation_rank": 54,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6880,15 +6995,15 @@
       "name": "Skylake",
       "microarch_codename": "Skylake",
       "segment": "server",
-      "generation_rank": 50,
+      "generation_rank": 55,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6903,15 +7018,15 @@
       "name": "Broadwell",
       "microarch_codename": "Broadwell",
       "segment": "server",
-      "generation_rank": 51,
+      "generation_rank": 56,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6926,15 +7041,15 @@
       "name": "Xeon Phi Knl",
       "microarch_codename": "Xeon Phi Knl",
       "segment": "unknown",
-      "generation_rank": 52,
+      "generation_rank": 57,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6949,15 +7064,15 @@
       "name": "Atom Silvermont Mid2",
       "microarch_codename": "Atom Silvermont Mid2",
       "segment": "unknown",
-      "generation_rank": 53,
+      "generation_rank": 58,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6972,15 +7087,15 @@
       "name": "Atom Goldmont",
       "microarch_codename": "Atom Goldmont",
       "segment": "unknown",
-      "generation_rank": 54,
+      "generation_rank": 59,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -6995,15 +7110,15 @@
       "name": "Skylake",
       "microarch_codename": "Skylake",
       "segment": "unknown",
-      "generation_rank": 55,
+      "generation_rank": 60,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     },
@@ -7018,15 +7133,15 @@
       "name": "Atom Goldmont",
       "microarch_codename": "Atom Goldmont",
       "segment": "server",
-      "generation_rank": 56,
+      "generation_rank": 61,
       "release_year": 0,
       "aliases": null,
       "notes": "",
       "provenance": {
         "source_repo": "torvalds/linux",
         "source_path": "arch/x86/include/asm/intel-family.h",
-        "source_commit": "dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2",
-        "ingested_at": "2026-09-18T23:18:49Z",
+        "source_commit": "e83cac046ded56962ad4d4eb6ebd7910d62c287b",
+        "ingested_at": "2026-11-23T18:19:42Z",
         "confidence": "inferred"
       }
     }
